@@ -13,6 +13,8 @@
 		AC6B93012899F6D30055F268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6B92FF2899F6D30055F268 /* Main.storyboard */; };
 		AC6B93032899F6D40055F268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6B93022899F6D40055F268 /* Assets.xcassets */; };
 		AC6B93062899F6D40055F268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6B93042899F6D40055F268 /* LaunchScreen.storyboard */; };
+		AC6B930E2899F7D70055F268 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC6B930D2899F7D70055F268 /* .gitignore */; };
+		AC6B93102899F8220055F268 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B930F2899F8220055F268 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AC6B93022899F6D40055F268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6B93052899F6D40055F268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6B93072899F6D40055F268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6B930D2899F7D70055F268 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AC6B930F2899F8220055F268 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		AC6B92ED2899F6D30055F268 = {
 			isa = PBXGroup;
 			children = (
+				AC6B930D2899F7D70055F268 /* .gitignore */,
 				AC6B92F82899F6D30055F268 /* TMDB_SeSACWeek4 */,
 				AC6B92F72899F6D30055F268 /* Products */,
 			);
@@ -63,6 +68,7 @@
 				AC6B93022899F6D40055F268 /* Assets.xcassets */,
 				AC6B93042899F6D40055F268 /* LaunchScreen.storyboard */,
 				AC6B93072899F6D40055F268 /* Info.plist */,
+				AC6B930F2899F8220055F268 /* SearchViewController.swift */,
 			);
 			path = TMDB_SeSACWeek4;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6B930E2899F7D70055F268 /* .gitignore in Resources */,
 				AC6B93062899F6D40055F268 /* LaunchScreen.storyboard in Resources */,
 				AC6B93032899F6D40055F268 /* Assets.xcassets in Resources */,
 				AC6B93012899F6D30055F268 /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 			files = (
 				AC6B92FE2899F6D30055F268 /* ViewController.swift in Sources */,
 				AC6B92FA2899F6D30055F268 /* AppDelegate.swift in Sources */,
+				AC6B93102899F8220055F268 /* SearchViewController.swift in Sources */,
 				AC6B92FC2899F6D30055F268 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
